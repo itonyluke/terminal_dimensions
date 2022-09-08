@@ -62,11 +62,11 @@ int main(void)
 {
   struct	winsize s;
 
-  output_divider_line(1);
-  /* output_empty_line(1); */
-
   if (get_terminal_window_size(&s) != 0)
 	  return (1);
+
+  output_divider_line(1);
+  /* output_empty_line(1); */
 
   printf("%i", s.ws_row);
   output_in_color(" rows by ");
