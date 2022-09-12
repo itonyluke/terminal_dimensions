@@ -1,4 +1,4 @@
-### This program outputs terminal dimensions, rows by columns and pixels by pixels
+### this program outputs terminal dimensions, rows by columns and pixels by pixels
 
 #### install:
 `git clone https://github.com/itonyluke/terminal_dimensions terminal_dimensions`
